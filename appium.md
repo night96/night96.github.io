@@ -165,6 +165,21 @@ python ios_simple.py
 
 4. xcode 시뮬레이터가 자동으로 실행되고, 자동으로 무언가가 움직이면 성공 한 것입니다.
 
+(개발자가 할 일)
+deviceName이 잘못됐다는 에러가 나면 ios_simple.py에 setUp함수에 있는 deviceName과 platformVersion을 지금 실행한 xcode의 시뮬레이터 버전정보로 바꿔줍니다.
+
+
+## 실기 테스트
+
+1. 컴퓨터에 ios단말기를 연결합니다.
+2. ios단말기에 설정앱을 띄워 맨 아래 개발자 메뉴로 들어갑니다. Enable UI Automation 항목을 ON으로 켜줍니다.
+3. xcode 화면 상단에 'apptest > iphone 6s' 메뉴에 iphone 6s 부분을 클릭합니다. 팝업 메뉴 맨 위에 연결한 단말기 이름을 선택합니다.
+
+(개발자가 할 일)
+ios_simple.py setup 함수에 설정을 아래처럼 바꿔줍니다.
+'app': 'io.appium.TestApp',
+'udid': '연결한 단말기의 UDID'
+
 
 
 ## 정리
