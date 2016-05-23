@@ -12,10 +12,12 @@
 * appium 1.5.2
 
 
+
 ## xcode 인스톨
 
 App Store에서 xcode 검색. 
 install버튼 클릭.
+
 
 
 ## Homebrew 설치
@@ -35,6 +37,7 @@ brew -v
 버전이 표시되면 설치에 성공, command not found라고 표시되면 설치에 실패한 것입니다.
 
 
+
 ## npm, Node.js 설치
 
 * npm은 node package modules의 약자입니다. Node.js에서 사용 가능한 모듈들을 패키지로 모아놓은 것입니다.
@@ -43,6 +46,7 @@ brew -v
 ```
 brew install node
 ```
+
 
 
 ## appium 설치
@@ -103,6 +107,8 @@ info AppiumDoctor
 info AppiumDoctor Everything looks good, bye!
 ```
 
+
+
 ## 샘플 코드 다운로드
 
 * 작업 디렉토리를 정합니다. 아래의 설명은 /Users/[본인의 컴퓨터 유저 명]/repos 폴더를 기준으로 합니다.
@@ -117,6 +123,7 @@ https://github.com/appium/sample-code
 /Users/username/repos/sample-code-master/sample-code/apps-TestApp/TestApp.xcodeproj
 
 4. xcode가 실행되면 ⌘+R버튼을 눌러 테스트 프로그램을 실행시켜봅니다.
+
 
 
 ## appium 실행
