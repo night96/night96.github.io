@@ -1,18 +1,13 @@
-# mac에서 Appium설치
+# 맥에서 Appium설치하기
 
 설치 테스트 환경
 mac osx 10.11.4
-
 xcode 7.2.1 (7C1002)
 
 Homebrew 0.9.5
-
 npm 3.6.0
-
 nvm 설치하지 않음
-
 node 5.6.0
-
 appium 1.5.2
 
 
